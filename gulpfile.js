@@ -37,7 +37,8 @@ gulp.task('less', function() {
 var jsLibs = [
     'node_modules/art-template/lib/template-web.js',
     'node_modules/jquery/dist/jquery.js',
-    'node_modules/bootstrap/dist/js/bootstrap.js'
+    'node_modules/bootstrap/dist/js/bootstrap.js',
+    'node_modules/jquery-form/dist/jquery.form.min.js'
 ];
 // 合并所有的第三方包为一个js
 gulp.task('jsLib', function() {
